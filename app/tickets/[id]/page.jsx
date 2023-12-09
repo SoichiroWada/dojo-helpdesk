@@ -25,8 +25,8 @@ export default async function TicketDetails({ params }) {
                 <div className={`pill ${ticket.priority}`}>
                     {ticket.priority} priority
                 </div>
-                <Link href={`/tickets`}>
-                    <button>{"Return to Tickets"}</button>
+                <Link href="/tickets">
+                    <button>Return to Tickets</button>
                 </Link>
             </div>
         </main>
