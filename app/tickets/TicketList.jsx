@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
+//revalicate 30 seconds means that within 30 seconds, this function uses cache data.
 async function getTickets() {
     const res = await fetch('http://192.168.1.20:4000/tickets', {
         next: {
