@@ -1,7 +1,9 @@
 import Link from 'next/link'
+import { notFound } from 'next/navigation'
 import React from 'react'
 
-export const dynamicParams = false
+
+export const dynamicParams = true
 
 export async function generateStaticParams () {
     const res = await fetch('http://192.168.1.20:4000/tickets')
