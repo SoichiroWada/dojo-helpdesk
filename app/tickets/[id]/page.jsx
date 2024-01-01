@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import React from 'react'
 
-
 export const dynamicParams = true
 
 export async function generateStaticParams () {
@@ -17,7 +16,7 @@ export async function generateStaticParams () {
 
 async function getTicket(id) {
       // imitate delay
-    await new Promise(resolve => setTimeout(resolve, 2000))
+    await new Promise(resolve => setTimeout(resolve, 1000))
 
     const res = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {
         next: {

@@ -5,7 +5,7 @@ import React from 'react'
 async function getTickets() {
 
       // imitate delay
-    await new Promise(resolve => setTimeout(resolve, 2000))
+    await new Promise(resolve => setTimeout(resolve, 1000))
 
     const res = await fetch('http://192.168.1.20:4000/tickets', {
         next: {
