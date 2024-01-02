@@ -16,7 +16,7 @@ export async function generateStaticParams () {
 
 async function getTicket(id) {
       // imitate delay
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise(resolve => setTimeout(resolve, 300))
 
     const res = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {
         next: {
@@ -24,15 +24,36 @@ async function getTicket(id) {
         }
     })
 
-    if (!res.ok) {
-        notFound()
-      }
-
+    if (!res.ok) { notFound() }
     return res.json()
+}
+
+async function deleteTicket(id) {
+    // imitate delay
+
+//   const res1 = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {
+//       next: {
+//           revalidate: 60
+//       }
+//   })
+
+    // const res = await fetch('http://192.168.1.20:4000/tickets', {
+    await fetch(`http://192.168.1.20:4000/tickets/${id}`, {        
+        method: "DELETE"
+    })
+
+    // console.log(res.status)
+
+    // if(res.status === 201){
+    //     router.refresh()
+    //     router.push('/tickets')
+    // }
 }
 
 export default async function TicketDetails({ params }) {
     const ticket = await getTicket(params.id)
+    console.log(params.id)
+    const url = `/tickets/${params.id}/delete`
 
     return (
         <main>
@@ -42,13 +63,23 @@ export default async function TicketDetails({ params }) {
             <div className="card">
                 <h3>{ticket.title}</h3>
                 <small>Created by {ticket.user_email}</small>
+                <p>Ticket ID: {ticket.id}</p>
                 <p>{ticket.body}</p>
                 <div className={`pill ${ticket.priority}`}>
                     {ticket.priority} priority
                 </div>
-                <Link href="/tickets">
-                    <button>Return to Tickets</button>
-                </Link>
+                <div className="flex space-x-4">
+                    <div className="flex items-center justify-cetner">
+                        <Link href="/tickets">
+                            <button className="bg-purple-500  text-white">Return to Tickets</button>
+                        </Link>
+                    </div>
+                    <div className="flex items-center justify-cetner">
+                        <Link href={ url }>
+                            <button className=" bg-pink-500  text-white">Delete</button>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </main>
     )
