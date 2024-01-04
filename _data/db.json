@@ -8,53 +8,25 @@
       "user_email": "mario@netninja.dev"
     },
     {
-      "id": "2",
-      "title": "Add in a new stylesheet",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "medium",
-      "user_email": "mario@netninja.dev"
-    },
-    {
-      "id": "3",
-      "title": "Fix the footer links",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "high",
-      "user_email": "peach@netninja.dev"
-    },
-    {
-      "id": "4",
-      "title": "Fox on the street",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "low",
-      "user_email": "fox@netninja.dev"
-    },
-    {
-      "id": "5",
-      "title": "Eight Days a Week",
-      "body": "Eight Days a Week marked the first time the Beatles brought a partly formed song into the studio and completed the writing process as they recorded it.48 Two recording sessions, totalling nearly seven hours, on 6 October were devoted to the song, during which Lennon and McCartney experimented with various techniques before settling on a final structure and arrangement. Each of the first six takes featured a strikingly different approach to the beginning and end sections of the song; the eventual chiming guitar-based introduction was recorded during a different session and edited in later. The songs opening fade-in served as a counterpoint to pop songs that close with a fade out.73 Hertsgaard writes that the surprise provided by the fade-in was heightened for LP listeners due to the track being sequenced at the start of side two.42 Lennon was later highly dismissive of Eight Days a Week, referring to it in a 1980 interview as lousy.",
-      "priority": "medium",
-      "user_email": "fox@netninja.dev"
-    },
-    {
-      "id": "6",
-      "title": "It's Only Love",
-      "body": "The Beatles recorded Its Only Love at EMI Studios in London on 15 June 1965.Lennons working title for the composition was Thats a Nice Hat. The band recorded six takes of the rhythm track, two of which were incomplete, with a line-up of 6- and 12-string acoustic guitars, bass and drums.2 The high register of the acoustic guitars was created through Lennon and George Harrison each using a capo on the neck of their instrument.3",
-      "priority": "high",
-      "user_email": "fox@netninja.dev"
-    },
-    {
-      "title": "Another ticket",
-      "body": "Abrakatabra lalala",
-      "priority": "high",
-      "user_email": "mario@netninja.dev",
-      "id": "2ufJJ6V"
-    },
-    {
-      "title": "TEST3",
-      "body": "KIsknpm'as\ndfka\nslmdf",
+      "title": "JavaScript Output",
+      "body": "Writing into an HTML element, using innerHTML.\nWriting into the HTML output using document.write().\nWriting into an alert box, using window.alert().\nWriting into the browser console, using console.log().",
       "priority": "low",
       "user_email": "mario@netninja.dev",
-      "id": "uYcl_dL"
+      "id": "mEfkE3e"
+    },
+    {
+      "title": "JavaScript Statements",
+      "body": "JavaScript statements are composed of:\n\nValues, Operators, Expressions, Keywords, and Comments.\n\nThis statement tells the browser to write \"Hello Dolly.\" inside an HTML element with id=\"demo\":",
+      "priority": "low",
+      "user_email": "mario@netninja.dev",
+      "id": "3uqf9Lt"
+    },
+    {
+      "title": "JavaScript Programs",
+      "body": "A computer program is a list of \"instructions\" to be \"executed\" by a computer.\n\nIn a programming language, these programming instructions are called statements.\n\nA JavaScript program is a list of programming statements.",
+      "priority": "high",
+      "user_email": "mario@netninja.dev",
+      "id": "SDmd-QZ"
     }
   ]
 }

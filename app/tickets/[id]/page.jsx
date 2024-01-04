@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import { useRouter } from "next/navigation"
 import React from 'react'
 
 export const dynamicParams = true
@@ -28,28 +29,6 @@ async function getTicket(id) {
     return res.json()
 }
 
-async function deleteTicket(id) {
-    // imitate delay
-
-//   const res1 = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {
-//       next: {
-//           revalidate: 60
-//       }
-//   })
-
-    // const res = await fetch('http://192.168.1.20:4000/tickets', {
-    await fetch(`http://192.168.1.20:4000/tickets/${id}`, {        
-        method: "DELETE"
-    })
-
-    // console.log(res.status)
-
-    // if(res.status === 201){
-    //     router.refresh()
-    //     router.push('/tickets')
-    // }
-}
-
 export default async function TicketDetails({ params }) {
     const ticket = await getTicket(params.id)
     console.log(params.id)
@@ -75,7 +54,7 @@ export default async function TicketDetails({ params }) {
                         </Link>
                     </div>
                     <div className="flex items-center justify-cetner">
-                        <Link href={ url }>
+                        <Link href={ url}>
                             <button className=" bg-pink-500  text-white">Delete</button>
                         </Link>
                     </div>

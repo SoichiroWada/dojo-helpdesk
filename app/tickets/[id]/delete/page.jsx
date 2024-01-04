@@ -2,37 +2,44 @@
 
 import React from 'react'
 import { useRouter } from "next/navigation"
-import { useState } from "react"
 
-async function handleDelete(id) {
-  const router = useRouter()
+// function handleDelete(id) {
+//   const router = useRouter()
 
-  const res = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {        
-      method: "DELETE"
-  })
+//   fetch(`http://192.168.1.20:4000/tickets/${id}`, {        
+//     method: "DELETE",
+//     headers: {
+//       'Content-Type': 'application/json',
+//     }
+//   })
+//   .then(response => response.text())
+//   .then(data => console.log(data))
+//   .then(() => router.refresh())
+//   .then(() => router.push('/tickets'))
 
-  if(res.status === 201){
-    router.refresh()
-    router.push('/tickets')
-  }
+//   if(res.status === 200){
+//     router.refresh()
+//     router.push('/tickets')
+//   }
+// }
+
+const handleClickDelete = (id) => {
+    const router = useRouter()
+    fetch(`http://192.168.1.20:4000/tickets/${id}`, {
+        method: 'DELETE'
+    }).then(() => {
+        router.refresh()
+        router.push('/tickets')
+    })
 }
 
-export default function DeleteTicket(prop) {
-
+export default async function DeleteTicket(prop) {
   const id = prop.params.id
+  console.log(typeof(id))
   console.log("prop:", prop)
   console.log(id)
-  console.log(typeof(id))
-  // const url = window.location.href
-  // const search = url.search("tickets")
-  // console.log(search)
-  React.useEffect(() => {
-    // window is accessible here.
-    const url = window.location.href
-    console.log(url)
-    const search = url.search("tickets") 
-    console.log(search);
-  }, []);
+
+  handleClickDelete(id)
 
   return (
     <div>
