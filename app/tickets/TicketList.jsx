@@ -9,7 +9,7 @@ async function getTickets() {
 
     const res = await fetch('http://192.168.1.20:4000/tickets', {
         next: {
-            revalidate: 30
+            revalidate: 120
         }
     })
     return res.json()
@@ -34,7 +34,7 @@ export default async function TicketList() {
         
         ))}
         {tickets.length === 0 && (
-            <p className="text-center">There are no open tickets, yay</p>
+            <p className="text-center">There are no open tickets, yay!</p>
         )}
     </>
   )

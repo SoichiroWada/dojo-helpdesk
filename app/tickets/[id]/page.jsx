@@ -21,7 +21,7 @@ async function getTicket(id) {
 
     const res = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {
         next: {
-            revalidate: 60
+            revalidate: 120
         }
     })
 
@@ -31,7 +31,7 @@ async function getTicket(id) {
 
 export default async function TicketDetails({ params }) {
     const ticket = await getTicket(params.id)
-    console.log(params.id)
+    // console.log(params.id)
     const url = `/tickets/${params.id}/delete`
 
     return (

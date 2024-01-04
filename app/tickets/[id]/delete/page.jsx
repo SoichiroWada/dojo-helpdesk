@@ -15,9 +15,9 @@ const handleDelete = (id) => {
 
 export default async function DeleteTicket(prop) {
   const id = prop.params.id
-  console.log(typeof(id))
-  console.log("prop:", prop)
-  console.log(id)
+  // console.log(typeof(id))
+  // console.log("prop:", prop)
+  // console.log(id)
 
   handleDelete(id)
 
