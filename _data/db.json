@@ -43,13 +43,6 @@
       "id": "3uqf9Lt"
     },
     {
-      "title": "JavaScript Programs",
-      "body": "A computer program is a list of \"instructions\" to be \"executed\" by a computer.\n\nIn a programming language, these programming instructions are called statements.\n\nA JavaScript program is a list of programming statements.",
-      "priority": "high",
-      "user_email": "mario@netninja.dev",
-      "id": "SDmd-QZ"
-    },
-    {
       "title": "JavaScript Variables",
       "body": "JavaScript Variables can be declared in 4 ways:\n\nAutomatically\nUsing var\nUsing let\nUsing const",
       "priority": "medium",
@@ -57,11 +50,25 @@
       "id": "781PQze"
     },
     {
-      "title": "fox on the street",
-      "body": "kdpakelkmgaskdnbvmnmnzxvnzdsqwbirg",
+      "title": "What is artificial intelligence?",
+      "body": "While a number of definitions of artificial intelligence (AI) have surfaced over the last few decades, John McCarthy offers the following definition in this 2004 paper (link resides outside ibm.com), \" It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable",
       "priority": "low",
       "user_email": "mario@netninja.dev",
-      "id": "MVRnTAu"
+      "id": "jK5CVTR"
+    },
+    {
+      "title": "Artificial intelligence (AI)",
+      "body": "Artificial intelligence is a potentially world-changing technology. It could help cure cancers, control autonomous cars, and augment human intelligence. Or it could lead to a robot apocalypse and the downfall of humanity. It depends on who you ask.",
+      "priority": "high",
+      "user_email": "mario@netninja.dev",
+      "id": "WAkIXIY"
+    },
+    {
+      "title": "What is Next.js?",
+      "body": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.\n\nUnder the hood, Next.js also abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.\n\nWhether you're an individual developer or part of a larger team, Next.js can help you build interactive, dynamic, and fast React applications.",
+      "priority": "high",
+      "user_email": "mario@netninja.dev",
+      "id": "Qk1jxGp"
     }
   ]
 }

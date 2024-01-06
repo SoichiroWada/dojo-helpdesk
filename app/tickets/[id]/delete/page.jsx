@@ -21,10 +21,10 @@ export default async function DeleteTicket(prop) {
 
   handleDelete(id)
 
-  return (
-    <div>
-    <div>delete</div>
-    <div>{prop.params.id}</div>
-    </div>
-  )
+  // return (
+  //   <div>
+  //   <div>delete</div>
+  //   <div>{prop.params.id}</div>
+  //   </div>
+  // )
 }

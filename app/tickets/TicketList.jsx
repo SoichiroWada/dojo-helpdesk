@@ -9,7 +9,7 @@ async function getTickets() {
 
     const res = await fetch('http://192.168.1.20:4000/tickets', {
         next: {
-            revalidate: 120
+            revalidate: 0
         }
     })
     return res.json()
