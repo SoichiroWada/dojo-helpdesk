@@ -20,11 +20,4 @@ export default async function DeleteTicket(prop) {
   // console.log(id)
 
   handleDelete(id)
-
-  // return (
-  //   <div>
-  //   <div>delete</div>
-  //   <div>{prop.params.id}</div>
-  //   </div>
-  // )
 }

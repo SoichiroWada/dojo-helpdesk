@@ -29,13 +29,6 @@
       "user_email": "peach@netninja.dev"
     },
     {
-      "title": "JavaScript Output",
-      "body": "Writing into an HTML element, using innerHTML.\nWriting into the HTML output using document.write().\nWriting into an alert box, using window.alert().\nWriting into the browser console, using console.log().",
-      "priority": "low",
-      "user_email": "mario@netninja.dev",
-      "id": "mEfkE3e"
-    },
-    {
       "title": "JavaScript Statements",
       "body": "JavaScript statements are composed of:\n\nValues, Operators, Expressions, Keywords, and Comments.\n\nThis statement tells the browser to write \"Hello Dolly.\" inside an HTML element with id=\"demo\":",
       "priority": "low",
