@@ -1,15 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function AuthLayout() {
+export default function AuthLayout({ children }) {
   return (
     <>
-        <Nav>
+        <nav>
             <h1>Dojo Helpdesk</h1>
-            <Link href="/singup">Sing up</Link>
+            <Link href="/signup">Sign up</Link>
             <Link href="/login">Longin</Link>
-        </Nav>
-        {children}
+        </nav>
+        { children }
     </>
   )
 }
