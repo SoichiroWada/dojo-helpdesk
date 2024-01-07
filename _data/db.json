@@ -62,6 +62,20 @@
       "priority": "high",
       "user_email": "mario@netninja.dev",
       "id": "Qk1jxGp"
+    },
+    {
+      "title": "Main Features",
+      "body": "Feature\tDescription\nRouting\tA file-system based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.\nRendering\tClient-side and Server-side Rendering with Client and Server Components. Further optimized with Static and Dynamic Rendering on the server with Next.js. Streaming on Edge and Node.js runtimes.\nData Fetching\tSimplified data fetching with async/await in Server Components, and an extended fetch API for request memoization, data caching and revalidation.\nStyling\tSupport for your preferred styling methods, including CSS Modules, Tailwind CSS, and CSS-in-JS\nOptimizations\tImage, Fonts, and Script Optimizations to improve your application's Core Web Vitals and User Experience.\nTypeScript\tImproved support for TypeScript, with better type checking and more efficient compilation, as well as custom TypeScript Plugin and type checker.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev",
+      "id": "FsN2Iav"
+    },
+    {
+      "title": "Tailwind CSS",
+      "body": "Tailwind CSS is a utility-first CSS framework that works exceptionally well with Next.js.",
+      "priority": "low",
+      "user_email": "mario@netninja.dev",
+      "id": "NVfQHPG"
     }
   ]
 }
