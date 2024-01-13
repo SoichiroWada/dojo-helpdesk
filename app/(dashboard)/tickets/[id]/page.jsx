@@ -6,7 +6,7 @@ import React from 'react'
 export const dynamicParams = true
 
 export async function generateStaticParams () {
-    const res = await fetch('http://192.168.1.20:4000/tickets')
+    const res = await fetch('http://192.168.1.2:4000/tickets')
 
     const tickets = await res.json()
 
@@ -19,7 +19,7 @@ async function getTicket(id) {
       // imitate delay
     await new Promise(resolve => setTimeout(resolve, 300))
 
-    const res = await fetch(`http://192.168.1.20:4000/tickets/${id}`, {
+    const res = await fetch(`http://192.168.1.2:4000/tickets/${id}`, {
         next: {
             revalidate: 0
         }

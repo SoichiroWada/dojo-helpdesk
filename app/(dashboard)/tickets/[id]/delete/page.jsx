@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation"
 
 const handleDelete = (id) => {
     const router = useRouter()
-    fetch(`http://192.168.1.20:4000/tickets/${id}`, {
+    fetch(`http://192.168.1.2:4000/tickets/${id}`, {
         method: 'DELETE'
     }).then(() => {
         router.refresh()

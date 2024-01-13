@@ -18,7 +18,7 @@ export default function CreateForm() {
 
         const newTicket = { title, body, priority, user_email:'mario@netninja.dev' }
 
-        const res = await fetch('http://192.168.1.20:4000/tickets', {
+        const res = await fetch('http://192.168.1.2:4000/tickets', {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(newTicket)

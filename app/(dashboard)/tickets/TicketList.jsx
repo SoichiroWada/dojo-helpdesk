@@ -7,7 +7,7 @@ async function getTickets() {
       // imitate delay
     await new Promise(resolve => setTimeout(resolve, 200))
 
-    const res = await fetch('http://192.168.1.20:4000/tickets', {
+    const res = await fetch('http://192.168.1.2:4000/tickets', {
         next: {
             revalidate: 0
         }
