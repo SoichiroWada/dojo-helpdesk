@@ -8,13 +8,6 @@
       "user_email": "mario@netninja.dev"
     },
     {
-      "id": "12365",
-      "title": "Fix the footer links please",
-      "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
-      "priority": "low",
-      "user_email": "mario@netninja.dev"
-    },
-    {
       "id": "2",
       "title": "Add in a new stylesheet",
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
@@ -30,14 +23,14 @@
     },
     {
       "title": "JavaScript Statements",
-      "body": "JavaScript statements are composed of:\n\nValues, Operators, Expressions, Keywords, and Comments.\n\nThis statement tells the browser to write \"Hello Dolly.\" inside an HTML element with id=\"demo\":",
+      "body": "JavaScript statements are composed of:Values, Operators, Expressions, Keywords, and Comments.This statement tells the browser to write Hello Dolly. inside an HTML element with id=demo:",
       "priority": "low",
       "user_email": "mario@netninja.dev",
       "id": "3uqf9Lt"
     },
     {
       "title": "JavaScript Variables",
-      "body": "JavaScript Variables can be declared in 4 ways:\n\nAutomatically\nUsing var\nUsing let\nUsing const",
+      "body": "JavaScript Variables can be declared in 4 ways:AutomaticallyUsing varUsing letUsing const",
       "priority": "medium",
       "user_email": "mario@netninja.dev",
       "id": "781PQze"
@@ -58,14 +51,14 @@
     },
     {
       "title": "What is Next.js?",
-      "body": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.\n\nUnder the hood, Next.js also abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.\n\nWhether you're an individual developer or part of a larger team, Next.js can help you build interactive, dynamic, and fast React applications.",
+      "body": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.Under the hood, Next.js also abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.Whether you're an individual developer or part of a larger team, Next.js can help you build interactive, dynamic, and fast React applications.",
       "priority": "high",
       "user_email": "mario@netninja.dev",
       "id": "Qk1jxGp"
     },
     {
       "title": "Main Features",
-      "body": "Feature\tDescription\nRouting\tA file-system based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.\nRendering\tClient-side and Server-side Rendering with Client and Server Components. Further optimized with Static and Dynamic Rendering on the server with Next.js. Streaming on Edge and Node.js runtimes.\nData Fetching\tSimplified data fetching with async/await in Server Components, and an extended fetch API for request memoization, data caching and revalidation.\nStyling\tSupport for your preferred styling methods, including CSS Modules, Tailwind CSS, and CSS-in-JS\nOptimizations\tImage, Fonts, and Script Optimizations to improve your application's Core Web Vitals and User Experience.\nTypeScript\tImproved support for TypeScript, with better type checking and more efficient compilation, as well as custom TypeScript Plugin and type checker.",
+      "body": "FeatureDescriptionRoutingA file-system based router built on top of Server Components that supports layouts, nested routing, loading states, error handling, and more.RenderingClient-side and Server-side Rendering with Client and Server Components. Further optimized with Static and Dynamic Rendering on the server with Next.js. Streaming on Edge and Node.js runtimes.Data FetchingSimplified data fetching with async/await in Server Components, and an extended fetch API for request memoization, data caching and revalidation.StylingSupport for your preferred styling methods, including CSS Modules, Tailwind CSS, and CSS-in-JSOptimizationsImage, Fonts, and Script Optimizations to improve your application's Core Web Vitals and User Experience.TypeScriptImproved support for TypeScript, with better type checking and more efficient compilation, as well as custom TypeScript Plugin and type checker.",
       "priority": "medium",
       "user_email": "mario@netninja.dev",
       "id": "FsN2Iav"
@@ -76,6 +69,27 @@
       "priority": "low",
       "user_email": "mario@netninja.dev",
       "id": "NVfQHPG"
+    },
+    {
+      "title": "Tailwind CSS XXX",
+      "body": "AAA Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.",
+      "user?email": "soichiro@express.com",
+      "priority": "low",
+      "id": "dxrNwWr"
+    },
+    {
+      "title": "Flowers",
+      "body": "A flower, also known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Angiospermae). Flowers consist of a combination of vegetative organs – sepals that enclose and protect the developing flower, petals that attract pollinators, and reproductive organs that produce gametophytes, which in flowering plants produce gametes. The male gametophytes, which produce sperm, are enclosed within pollen grains produced in the anthers. The female gametophytes are contained within the ovules produced in the carpels.",
+      "user_email": "soichiro@message.com",
+      "priority": "medium",
+      "id": "DJlzgGu"
+    },
+    {
+      "title": "Bundoka",
+      "body": "Dokadoka doka bunbun",
+      "user_email": "soichiro@message.com",
+      "priority": "high",
+      "id": "DUmYcos"
     }
   ]
 }
