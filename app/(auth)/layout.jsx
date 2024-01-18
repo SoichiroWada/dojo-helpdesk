@@ -5,9 +5,9 @@ export default function AuthLayout({ children }) {
   return (
     <>
         <nav>
-            <h1>Dojo Helpdesk</h1>
-            <Link href="/signup">Sign up</Link>
-            <Link href="/login">Longin</Link>
+          <h1>Dojo Helpdesk</h1>
+          <Link href="/signup">Sign up</Link>
+          <Link href="/login">Longin</Link>
         </nav>
         { children }
     </>
