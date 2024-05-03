@@ -90,6 +90,20 @@
       "user_email": "soichiro@message.com",
       "priority": "high",
       "id": "DUmYcos"
+    },
+    {
+      "title": "something happens",
+      "body": "you will be a person",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev",
+      "id": "FogfQzm"
+    },
+    {
+      "title": "Handling POST Request",
+      "body": "What is Next.js?\nNext.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.\n\nUnder the hood, Next.js also abstracts and automatically configures tooling needed for React, like bundling, compiling, and more. This allows you to focus on building your application instead of spending time with configuration.\n\nWhether you're an individual developer or part of a larger team, Next.js can help you build interactive, dynamic, and fast React applications.",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev",
+      "id": "TLnyP4O"
     }
   ]
 }

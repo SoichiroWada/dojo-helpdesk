@@ -10,7 +10,7 @@ export default function Signup() {
   const handleSubmit = async (e, email, password) => {
     e.preventDefault()
 
-    console.log(email, password)
+    console.log("user signup",email, password)
   }
 
   return (
