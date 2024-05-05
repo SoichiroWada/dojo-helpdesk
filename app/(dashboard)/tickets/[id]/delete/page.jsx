@@ -3,9 +3,12 @@
 import React from 'react'
 import { useRouter } from "next/navigation"
 
+const url1 = "http://localhost:4000/tickets"
+const url2 = "http://192.168.1.2:4000/tickets"
+
 const handleDelete = (id) => {
     const router = useRouter()
-    fetch(`http://192.168.1.2:4000/tickets/${id}`, {
+    fetch(`${url1}/${id}`, {
         method: 'DELETE'
     }).then(() => {
         router.refresh()

@@ -1,13 +1,16 @@
 import Link from 'next/link'
 import React from 'react'
 
+const url1 = "http://localhost:4000/tickets"
+const url2 = "http://192.168.1.2:4000/tickets"
+
 //revalicate 30 seconds means that within 30 seconds, this function uses cache data.
 async function getTickets() {
 
       // imitate delay
     await new Promise(resolve => setTimeout(resolve, 200))
 
-    const res = await fetch('http://192.168.1.2:4000/tickets', {
+    const res = await fetch(url1, {
         next: {
             revalidate: 0
         }

@@ -5,8 +5,22 @@ import React from 'react'
 
 export const dynamicParams = true
 
+const url1 = "http://localhost:4000/tickets"
+const url2 = "http://192.168.1.2:4000/tickets"
+
+export async function generateMetadata({ params }) {
+    const id = params.id
+  
+    const res = await fetch(`${url1}/${id}`)
+    const ticket = await res.json()
+   
+    return {
+      title: `Dojo Helpdesk | ${ticket.title}`
+    }
+  }
+
 export async function generateStaticParams () {
-    const res = await fetch('http://192.168.1.2:4000/tickets')
+    const res = await fetch(url1)
 
     const tickets = await res.json()
 
@@ -19,7 +33,7 @@ async function getTicket(id) {
       // imitate delay
     await new Promise(resolve => setTimeout(resolve, 300))
 
-    const res = await fetch(`http://192.168.1.2:4000/tickets/${id}`, {
+    const res = await fetch(`${url1}/${id}`, {
         next: {
             revalidate: 0
         }

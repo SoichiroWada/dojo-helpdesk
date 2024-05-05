@@ -11,6 +11,8 @@ export default function CreateForm() {
     const [body, setBody] = useState('')
     const [priority, setPriority] = useState('low')
     const [isLoading, setIsLoading] = useState(false)
+    const url1 = "http://localhost:4000/tickets"
+    const url2 = "http://192.168.1.2:4000/tickets"
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -18,7 +20,7 @@ export default function CreateForm() {
 
         const newTicket = { title, body, priority, user_email:'mario@netninja.dev' }
 
-        const res = await fetch('http://192.168.1.2:4000/tickets', {
+        const res = await fetch(url1, {
             method: "POST",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(newTicket)
